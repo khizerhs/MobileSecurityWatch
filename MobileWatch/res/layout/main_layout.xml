@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/b_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm" />
+
+    <Button
+        android:id="@+id/b_eme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency" />
+
+    <Button
+        android:id="@+id/b_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reporting" />
+
+    <Button
+        android:id="@+id/b_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech" />
+    
+   </LinearLayout>
+   
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f9al" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/logo" 
+        />
+
+    <Button
+        android:id="@@+id/b_alarm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/button1"
+        android:layout_marginBottom="24dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@drawable/huge"
+        android:text="" />
+
+    <Button
+        android:id="@+id/b_speech"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/unnamed"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="" />
+    
+</RelativeLayout>
